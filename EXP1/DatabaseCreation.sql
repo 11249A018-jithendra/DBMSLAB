@@ -1,9 +1,9 @@
 -- Experiment 1 — Database creation and information retrieval
 --
--- AIM
+-- AIM:
 -- To build a student database and retrieve its records through filtering, sorting, and aggregate queries.
 
---program
+--program:
 -- Step 1
 CREATE DATABASE IF NOT EXISTS LAB_EXPERIMENT_1;
 
@@ -45,5 +45,5 @@ SELECT COUNT(*) AS TotalStudents FROM Student;
 -- Step 10
 SELECT AVG(CGPA) FROM Student;
 
--- RESULT
+-- RESULT:
 -- The program creates and populates a student table and demonstrates filtering, sorting, counting, and averaging its records.
